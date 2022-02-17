@@ -36,6 +36,7 @@
   background-color: #1F3A58;
   padding: 10px;
   font-size: 1rem;
+  text-transform: capitalize;
 }
 .ui-datepicker-material-header
 .ui-datepicker-material-date {
@@ -84,6 +85,7 @@
   text-align: center;
   background: white;
   font-weight: 300;
+  text-transform: capitalize;
 }
 
 .ui-datepicker-calendar
