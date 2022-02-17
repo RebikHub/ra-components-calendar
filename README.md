@@ -1,4 +1,8 @@
-Календарь
+
+[![Build status](https://ci.appveyor.com/api/projects/status/j0b367empvxt5mvu/branch/master?svg=true)](https://ci.appveyor.com/project/RebikHub/ra-components-calendar/branch/master)
+
+[Календарь](https://rebikhub.github.io/ra-components-calendar/)
+
 ===
 
 Создать React-компонет `Calendar` (функциональный компонент), который бы показывал текущую дату, и текущий месяц как показано на картинке:
