@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ra-components-calendar/static/css/main.efc6ee39.css",
+    "main.js": "/ra-components-calendar/static/js/main.eed779bd.js",
+    "index.html": "/ra-components-calendar/index.html",
+    "main.efc6ee39.css.map": "/ra-components-calendar/static/css/main.efc6ee39.css.map",
+    "main.eed779bd.js.map": "/ra-components-calendar/static/js/main.eed779bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efc6ee39.css",
+    "static/js/main.eed779bd.js"
+  ]
+}
