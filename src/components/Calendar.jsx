@@ -22,7 +22,7 @@ export default function Calendar (props) {
       <table className="ui-datepicker-calendar">
         <DayColumn/>
         <Weekday/>
-        <DaysInMonth days={props.days}/>
+        <DaysInMonth days={props.days} date={props.date.numDate}/>
       </table>
     </div>
   )
