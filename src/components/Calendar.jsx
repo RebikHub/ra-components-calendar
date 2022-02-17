@@ -1,6 +1,7 @@
 import React from 'react';
-import Week from './Week';
+import DayColumn from './DayColumn';
 import Weekday from './Weekday';
+import DaysInMonth from './DaysInMonth';
 
 export default function Calendar (props) {
   return (
@@ -19,29 +20,9 @@ export default function Calendar (props) {
         </div>
       </div>
       <table className="ui-datepicker-calendar">
-        <Week/>
+        <DayColumn/>
         <Weekday/>
-        <tbody>
-          <tr>
-            <td className="ui-datepicker-other-month">27</td>
-            <td className="ui-datepicker-other-month">28</td>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td>7</td>
-            <td className="ui-datepicker-today">8</td>
-            <td>9</td>
-            <td>10</td>
-            <td>11</td>
-            <td>12</td>
-          </tr>
-          {/* <!-- остальные недели --> */}
-        </tbody>
+        <DaysInMonth days={props.days}/>
       </table>
     </div>
   )

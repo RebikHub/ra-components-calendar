@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Week (props) {
+export default function DayColumn (props) {
     return (
       <colgroup>
         <col/>
